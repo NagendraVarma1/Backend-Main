@@ -36,7 +36,7 @@ const requestHandler = (req, res) => {
   } else {
     res.setHeader("Content-type", "text/html");
     res.write("<html>");
-    res.write("<head><title>My First Page</title></head>");
+    res.write("<head><title>My Practice Page</title></head>");
     res.write("<body><h1>Welcome to my Node Page</h1></body>");
     res.write("</html>");
     res.end();
